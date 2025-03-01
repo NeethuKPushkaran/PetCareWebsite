@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bg-color1 : rgb(189, 227, 228);
+    --bg-color2 : #D9D9D9;
+    --bg-color3 : rgb(245, 213, 218);
+    --bg-color4 : #C8437B;
+    --font-fontfamily1 : "Poppins", sans-serif;
+    --font-fontfamily2 : "Rubik Wet Paint", system-ui;;
+    --font-color1 : #3b3939;
+    --font-color2 : #00A2B8;
+
+}
+
+body{
+    font-family: var(--font-fontfamily1);
+    color: var(--font-color1);
+}
+header{
+    padding: 5vh;
+    text-align: center;
+    background: linear-gradient(to right, var(--bg-color1), var(--bg-color2), var(--bg-color3));
+}
+li{
+    list-style: none;
+}
+.logo, .menu>ul, .login>ul{
+    padding-bottom: 1rem;
+}
+.logo, .menu>ul>li, .login>ul>li{
+    cursor: pointer;
+}
+.logo:hover, .menu>ul>li:hover, .login>ul>li:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    color: var(--font-color2);
+    text-decoration: underline;
+}
+
+/* section-1 */
+
+.section-1{
+    padding: 40px;
+    text-align: center;
+    background: linear-gradient(to right, var(--bg-color1), var(--bg-color2), var(--bg-color3));
+}
+.bluecolor{
+    color: var(--font-color2);
+}
+.section-1-1-data2{
+    padding: 1rem;
+}
+.section-1-1-data1{
+    font-family: var(--font-fontfamily2);
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    font-size: 2rem;
+}
+.section-1-1-data2{
+    font-family: var(--font-fontfamily2);
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.section1btns{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servcalbtn{
+    margin: 1rem 0rem;
+    align-items: center;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    border-color: var(--bg-color4);
+    padding: 10px;
+    background-color: white;
+    width: fit-content;
+    color: var(--bg-color4);
+    cursor: pointer;
+}
+.servcalbtn:hover{
+    background-color: var(--bg-color4);
+    color: white;
+}
+
+/* section-2 */
+.section-2{
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: center;
+}
+.section-2-1{
+    padding: 1rem 2rem;
+    background: linear-gradient(to right, var(--bg-color1), var(--bg-color2), var(--bg-color3));
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 1rem;
+}
+.groupbutton{
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+.section-2-1-1{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* section-3 */
+.about{
+    text-align: center;
+    width: fit-content;
+    padding: 2rem 10rem;
+}
+

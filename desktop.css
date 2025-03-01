@@ -1,0 +1,74 @@
+@media(min-width: 800px){
+
+    /* header */
+
+    header{
+        padding: 20px 60px 20px 60px;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo, .menu>ul, .login>ul{
+        padding-bottom: 0rem;
+    }
+    .logo>img{
+        width: 80%;
+    }
+    .menu > ul{
+        display: flex;
+        gap: 4rem;
+        font-size: 1rem;
+    }
+    .login>ul{
+        font-size: 1rem;
+    }
+
+    /* section-1 */
+    .section-1{
+        display: flex;
+        padding-bottom: 0;
+    }
+    .section-1-1{
+        text-align: left;
+        padding-left: 4rem;
+        width: 40rem;
+        justify-content: space-evenly;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-1-1-data1, .section-1-1-data2{
+        justify-content: left;
+        padding: 0;
+    }
+    .section-1-1-data1{
+        font-size: 3.2rem;
+        padding-bottom: 1rem;
+    }
+    .section-1-1-data2{
+        font-size: 2.3rem;
+        padding-bottom: 2rem;
+    }
+    .section-1-2{
+        display: flex;
+        flex-direction: column;
+        justify-items: end;
+    }
+    .section-1-2>img{
+        width: 80%;
+    }
+    .section1btns{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    /* section-2 */
+
+    .section-2-1{
+        display: flex;
+        flex-direction: row;
+    }
+}
