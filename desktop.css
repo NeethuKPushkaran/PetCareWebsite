@@ -3,7 +3,7 @@
     /* header */
 
     header{
-        padding: 20px 60px 20px 60px;
+        padding: 20px 90px 20px 90px;
     }
     .container{
         display: flex;
@@ -27,6 +27,8 @@
     /* section-1 */
     .section-1{
         display: flex;
+        justify-content: space-between;
+        padding: 40px;
         padding-bottom: 0;
     }
     .section-1-1{
@@ -61,14 +63,145 @@
     .section1btns{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: left;
         gap: 1rem;
+        padding-left: 0;
     }
 
     /* section-2 */
-
+    .section-2{
+        text-align: center;
+    }
+    
     .section-2-1{
         display: flex;
         flex-direction: row;
+        padding: 1.5rem;
+        width: fit-content;
+    }
+    .groupbutton{
+        width: 28rem;
+    }
+
+    /* section-3 */
+
+    .about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 2rem;
+    }
+    .aboutImage{
+        display: flex;
+        justify-content: center;
+        width: 40%;
+    }
+    .aboutImage>img{
+        width: 40%;
+    }
+    .aboutdetails{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        width: 50%;
+        padding-left: 2rem;
+    }
+    .aboutdetails>h3, .aboutdetails>p{
+        display: flex;
+        text-align: left;
+    }
+
+    /* section-4 */
+
+    .section-4{
+        padding: 2rem 9rem;
+    }
+
+    /* section-5 */
+    .section-5{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 3rem 9rem;
+    }
+    .section5img{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        padding: 0;
+    }
+    .section5img img{
+        align-items: center;
+        padding: 0;
+    }
+    .section5info{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+
+    /* section-6 */
+
+    .section-6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 1rem;
+    }
+    .section6img{
+        width: 30%;
+    }
+    .section6info{
+        width: 50%;
+    }
+
+    /* section-7 */
+    .section-7{
+        margin: 5rem 6rem;
+    }
+    .section-7-1-1-1{
+        display: flex;
+        padding: 2rem 4rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .section7img{
+        width: 35%;
+    }
+    .section7info{
+        width: 55%;
+        padding-left: 3rem;
+        text-align: left;
+    }
+    .section7info1{
+        display: flex;
+        padding-bottom: 1rem;
+    }
+    .namedob{
+        width: 30%;
+    }
+    .rating{
+        width: 20%;
+    }
+
+    /* section-8 */
+
+    .section-8-2{
+        display: flex;
+        padding-bottom: 0;
+    }
+    .section-8{
+        padding-bottom: 0;
+    }
+
+    /* footer */
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem 8rem 2rem 8rem;
     }
 }
