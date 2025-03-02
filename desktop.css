@@ -3,7 +3,7 @@
     /* header */
 
     header{
-        padding: 20px 90px 20px 90px;
+        padding: 2rem 6rem;
     }
     .container{
         display: flex;
@@ -18,10 +18,10 @@
     .menu > ul{
         display: flex;
         gap: 4rem;
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     .login>ul{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     /* section-1 */

@@ -92,6 +92,7 @@ li{
     width: 9rem;
     color: var(--bg-color4);
     cursor: pointer;
+    box-shadow: 0 0 10px 1px rgb(238, 181, 232);
 }
 .servcalbtn:hover{
     background-color: var(--bg-color4);
